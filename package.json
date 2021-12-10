@@ -1,0 +1,25 @@
+{
+  "name": "AssignmentA",
+  "version": "1.0.0",
+  "description": "Framework for basic webdriverIO Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "Tejeswar Patro",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.10.1",
+    "@wdio/local-runner": "^7.11.1",
+    "@wdio/mocha-framework": "^7.11.1",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chromedriver": "^93.0.0",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
